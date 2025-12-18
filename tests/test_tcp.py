@@ -1263,7 +1263,7 @@ class _TestSSL(tb.SSLTestCase):
     PAYLOAD_SIZE = 1024 * 100
     TIMEOUT = 60
 
-    def test_astart_tls_buffer_transfer(self):
+    def test_start_tls_buffer_transfer(self):
         if self.implementation == 'asyncio':
             raise unittest.SkipTest()
 
